@@ -4,5 +4,12 @@
       "source": "/(.*)",
       "destination": "/"
     }
-  ]
+  ],
+  "build": {
+    "ignore": [
+      "../admin/**",
+      "../pharmacist/**",
+      "../backend/**"
+    ]
+  }
 }
